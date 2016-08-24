@@ -11,6 +11,14 @@
     <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSwGoDVUDPLd8f_397Fp9BrLKlu-6msu0sSiT0LeEZQ8Ga2228z">
 
     <!-- Insert Your Form Below -->
+    <!-- 'method' attribute tells the form what type of request goes to the server when submit is clicked -->
+    <!-- 'action' attribute tells the form the the route the request should be sent to -->
+    <!-- any input item also needs a 'name' attribute - the name attribute defines how the app will recognize the <input> data -->
+    <form method="POST" action="/food">
+      <p>Your Name:<input type="text" name="name"></p>
+      <p>Your Favorite Food:<input type="text" name="favorite_food"></p>
+      <input type="submit">
+    </form>
 
   </body>
 </html>
