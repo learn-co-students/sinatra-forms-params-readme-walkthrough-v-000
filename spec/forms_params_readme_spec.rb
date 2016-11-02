@@ -3,13 +3,13 @@ require 'spec_helper'
 describe "App" do
 
   describe 'POST /food' do
-    
-    it 'responds with a 200' do 
+
+    it 'responds with a 200' do
       post '/food'
       expect(last_response.status).to eq(200)
     end
 
-    it 'displays the params' do 
+    it 'displays the params' do
       params = {
         :name => "Carl",
         :favorite_food => "fried chicken"
@@ -22,5 +22,3 @@ describe "App" do
   end
 
 end
-       
-
