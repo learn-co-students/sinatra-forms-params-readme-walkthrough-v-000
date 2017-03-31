@@ -4,13 +4,19 @@
     <meta charset="UTF-8">
     <title>Food</title>
   </head>
- 
+
   <body>
-    
+
     <h1>Favorite Foods</h1>
     <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSwGoDVUDPLd8f_397Fp9BrLKlu-6msu0sSiT0LeEZQ8Ga2228z">
 
     <!-- Insert Your Form Below -->
-
+    <form action="/food" method="POST">
+      <label for="users_name">Your name</label>
+      <input type="text" name="users_name" id="users_name" />
+      <label for="fav_foods">Favorite food(s)</label>
+      <input type="text" name="fav_foods" id="fav_foods" />
+      <input type="submit">
+    </form>
   </body>
 </html>
