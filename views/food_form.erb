@@ -3,14 +3,37 @@
   <head>
     <meta charset="UTF-8">
     <title>Food</title>
+
+    <style>
+
+		label {
+			display: inline-block;
+			width: 100px;
+			text-align: right;
+		}
+
+		input[type='submit'] {
+			margin: 10px;
+			font-size: 1.5em;
+			margin-left: 100px;
+		}
+
+    </style>
   </head>
  
   <body>
     
     <h1>Favorite Foods</h1>
     <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSwGoDVUDPLd8f_397Fp9BrLKlu-6msu0sSiT0LeEZQ8Ga2228z">
-
-    <!-- Insert Your Form Below -->
-
+  
+	<form method="POST" action="/food" >
+		<label for="name">Name:</label>
+		<input type="text" name="name">
+		<br>
+		<label for="favorite_food">Favorite food:</label>
+		<input type="text" name="favorite_food">
+		<br>
+		<input type="submit">	
+	</form>
   </body>
 </html>
