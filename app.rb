@@ -6,13 +6,13 @@ class App < Sinatra::Base
     erb :food_form
   end
 
-  post '/food' do
-    #params.to_s
-
-    "My name is #{params[:name]}, and I love #{params[:favorite_food]}"
-
-
+  # post '/food' do
+  #   "My name is #{params[:name]}, and I love #{params[:favorite_food]}"
+	# end
+	
+	post '/food' do
+		@responses =  "My name is #{params[:name]}, and I love #{params[:favorite_food]}"
+		erb :result
   end
-  
 
 end
