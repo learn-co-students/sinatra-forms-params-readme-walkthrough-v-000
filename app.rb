@@ -7,9 +7,10 @@ class App < Sinatra::Base
   end
 
   post "/food" do
+    #params.to_s
     "My name is #{params[:name]}, and I love #{params[:favorite_food]}"
   end
-  
+
 end
 
 # where are these params defined to use?
