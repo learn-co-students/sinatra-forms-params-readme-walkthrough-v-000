@@ -6,6 +6,9 @@ class App < Sinatra::Base
     erb :food_form
   end
 
-  # Add your post route and action below
+  # Add your post route and action below #How do I know where to put it?
+  post '/food' do
+    "My name is #{params[:name]}, and I love #{params[:favorite_food]}"
+  end
 
 end
