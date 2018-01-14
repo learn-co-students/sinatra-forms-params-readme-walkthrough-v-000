@@ -1,5 +1,5 @@
 require_relative 'config/environment'
-
+#controller
 class App < Sinatra::Base
 
   get '/food_form' do
@@ -7,5 +7,8 @@ class App < Sinatra::Base
   end
 
   # Add your post route and action below
+  post '/food' do
+    "My name is #{params[:name]}, and I love #{params[:favorite_food]}"
+  end
 
 end
