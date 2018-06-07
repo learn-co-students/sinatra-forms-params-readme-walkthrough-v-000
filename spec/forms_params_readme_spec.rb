@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe "App" do
+puts describe "App" do
   describe 'GET /food_form' do
     it "can fill in the form" do
       agent = "Carl Jr."
@@ -16,7 +16,7 @@ describe "App" do
     end
   end
 
-  describe 'POST /food' do
+  puts describe 'POST /food' do
     it 'responds with a 200' do
       post '/food'
 
