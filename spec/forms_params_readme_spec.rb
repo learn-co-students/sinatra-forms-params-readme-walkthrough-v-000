@@ -19,7 +19,6 @@ describe "App" do
   describe 'POST /food' do
     it 'responds with a 200' do
       post '/food'
-
       expect(last_response.status).to eq(200)
     end
 
