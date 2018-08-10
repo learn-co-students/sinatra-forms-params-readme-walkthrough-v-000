@@ -34,3 +34,17 @@ describe "App" do
     end
   end
 end
+
+
+# whats going on
+# not notified of a delay - which became a cancellation
+# happened multiple times to me before
+# not rescheduling same day
+# its 11AM - how are technicians not doing anything from now until end of business?
+# overtime
+# I got an early apt on purpose to give you time to get here bc of the terrible past experiences
+# How often does this happen? Clearly a lot.
+# what guarentee do i have that they will come tomorrow? Will I be called that morning confirming or denying service?
+# 3rd time nobody has shown
+# do you just not care - because you have a monopoly on isp service in certain areas?
+# appreciate the fact that you aren't running dispatch
