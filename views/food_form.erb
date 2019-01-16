@@ -10,6 +10,14 @@
     <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSwGoDVUDPLd8f_397Fp9BrLKlu-6msu0sSiT0LeEZQ8Ga2228z">
 
     <!-- Insert Your Form Below -->
-
+    <!-- This is a form named POST because we are posting data to the server -->
+    <form method="POST" action="/food">
+      <!-- Each form field <input> also must define a name attribute.
+      The name attribute of an <input> defines how our application will identify each <input> data. -->
+      <p>Your Name: <input type="text" name="name"></p>
+      <p>Your Favorite Food: <input type="text" name="favorite_food"></p>
+      <input type="submit">
+    </form>
+    <!-- The rest is done in app.rb -->
   </body>
 </html>
