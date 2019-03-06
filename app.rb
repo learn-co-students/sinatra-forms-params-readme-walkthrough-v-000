@@ -4,10 +4,10 @@ class App < Sinatra::Base
 
   get '/food_form' do
     #fill_in("name", with: agent)
-    params = {
-      :name => "agent",
-      favorite_food => "Green Eggs and Ham"
-    }
+    # params = {
+    #   :name => "agent",
+    #   favorite_food => "Green Eggs and Ham"
+    # }
     erb :food_form
 
   end
@@ -18,7 +18,7 @@ class App < Sinatra::Base
   post '/food' do
     params.to_s
     "My name is #{params[:name]}, and I love #{params[:favorite_food]}"
-
+    # erb :food_form 
   #   params = {
   #   :name => "Sam",
   #   :favorite_food => "Green Eggs and Ham"
