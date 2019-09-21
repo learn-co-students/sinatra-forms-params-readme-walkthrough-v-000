@@ -15,20 +15,6 @@
     </head>
 <!------------------------------------------------------------------------->
   <body>
-    <!--title-->
-    <h1 style="margin-bottom: 20px;">Favorite Food</h1>
-    
-    <!--image-->
-    <div>
-      <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSwGoDVUDPLd8f_397Fp9BrLKlu-6msu0sSiT0LeEZQ8Ga2228z">
-    </div>
-
-    <!--form-->
-    <form method="POST" action="/food">
-      <p>Your Name: <input type="text" name="name"></p>
-      <p>Your Favorite Food: <input type="text" name="favorite_food"></p>
-      <input class="button" type="submit">
-    </form>
-    <!--form-->
+    <h1 style="margin-bottom: 20px;">My name is <%= @name %>, and I love <%= @food %></h1>
   </body>
 </html>
