@@ -74,7 +74,8 @@ Put it all together and your HTML form will look like this:
 
 ```html
 <form>
-  <p>Your Name: <input type="text"></p>
+
+  <p>Your Name: <input type="text" name="name"></p>
   <p>Your Favorite Food: <input type="text"></p>
   <input type="submit">
 </form>
